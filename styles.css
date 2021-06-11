@@ -38,9 +38,9 @@ hr {
 
 .card {
   background-color: #fff;
-  font-family: Kumbh Sans, bold;
+  font-family: Kumbh Sans, sans-serif, bold;
   color: #000;
-  font-weight: 400;
+  font-weight: 700;
   text-align: center;
   margin-top: 150px;
   margin-left: 550px;
@@ -57,10 +57,11 @@ hr {
 }
 .card-body,
 .card-footer {
+  font-weight: 700;
   background-color: #fff;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  
+  padding: 20px;
 }
 .profile-pic {
   border-radius: 50%;
@@ -72,11 +73,10 @@ hr {
 
 .age,
 .addr {
-  font-family: Kumbh Sans;
-  font-weight: 400;
+  font-family: monospace;
   color: hsl(227, 10%, 46%);
   margin: 0;
-  padding-left: 10px;
+  padding-bottom: 15px;
 }
 
 .profile-pic-pattern {
@@ -90,13 +90,13 @@ hr {
   text-align: center;
   color: #000;
   font-weight: 700;
-  font-size: 18px;
   display: inline-block;
   width: 60%;
   top: 0;
 }
 
 .social-stats {
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 1.5px;
   margin: 0;
@@ -109,7 +109,7 @@ hr {
   font-size: large;
   font-size: 9px;
   padding-top: 5px;
-  letter-spacing: 1.5px; 
+  letter-spacing: 1px; 
   line-height: 2.5px;
   margin: 0;
   position: relative;
